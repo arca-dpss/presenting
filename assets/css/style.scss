@@ -1,0 +1,22 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+h1 a {
+	font-size: 40px;
+	color: #9B0014!important;
+}
+
+h1:has(a) {
+	text-align: center;
+}
+
+h1 {
+	color: #9B0014!important;
+}
+
+img {
+  	display: block;
+  	margin: auto;
+}
